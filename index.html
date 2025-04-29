@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion-Style Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Font - Inter (used by Notion) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Add icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tasks</h1>
+            <p class="subtitle">Your minimal todo list</p>
+        </header>
+        
+        <div class="todo-input-wrapper">
+            <input type="text" id="todo-input" placeholder=" start typing...">
+            <button id="add-task">Add</button>
+        </div>
+
+        <div class="todos-wrapper">
+            <ul id="todo-list">
+                <!-- Todo items will be added here dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
